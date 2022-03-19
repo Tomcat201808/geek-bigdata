@@ -1,1 +1,11 @@
-
+1.登录方式：使用 ssh 登录（注意：复制粘贴，复制粘贴，复制粘贴）
+2.ssh  student1@114.55.52.33     GeekIs@Hero2022
+3.新建表空间  create_namespace 'weifujun'
+4.查看表清单：list 
+5.新建表 create 'weifujun:student' ,'name','info','score'
+6.插入数据：
+          put 'weifujun:student','0005','name', '韦福君' 
+          put 'weifujun:student','0005','info:student_id', 'G20210343210056' 
+          put 'weifujun:student', '0005', 'info:class', '3'
+          put 'weifujun:student', '0005', 'score:understandiing', '100' 
+          put 'weifujun:student', '0005', 'score:programming', '100'
